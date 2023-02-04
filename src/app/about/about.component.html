@@ -1,0 +1,20 @@
+<div class="container">
+    <p class="first-text">I am a 23-year-old junior web developer living in Oradea, Romania. I am passionate about
+        technology and the limitless possibilities it offers. I have always been interested in how things work, and I
+        was
+        fascinated by the idea of creating things that could be used by others.</p>
+    <p class="second-text">I believe that my skills and passion for technology will help me make a positive impact on
+        the
+        world and contribute to the development of innovative and meaningful solutions. I am excited about the future
+        and
+        the opportunities that lie ahead, and I am determined to work hard and make my mark in the field of web
+        development.
+    </p>
+    <div class="skills">
+        <div *ngFor="let skill of skills">
+            <h2 class="example-h2">{{skill.name}}</h2>
+            <mat-progress-spinner class="example-margin" color="accent" [value]="skill.value">
+            </mat-progress-spinner>
+        </div>
+    </div>
+</div>

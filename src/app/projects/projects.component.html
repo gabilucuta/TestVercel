@@ -1,0 +1,12 @@
+<div class="projects-container">
+    <div class="cards" *ngFor="let card of cards">
+      <a href="{{card.url}}">
+        <mat-card class="example-card">
+          <img mat-card-image src="{{card.image}}">
+          <mat-card-header>
+            <mat-card-title>{{card.name}}</mat-card-title>
+          </mat-card-header>
+        </mat-card>
+      </a>
+    </div>
+  </div>

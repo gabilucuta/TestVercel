@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1,
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+    font-size: 150px;
+    padding-top: 10%;
+}
+
+p {
+     font-size: 40px;
+     padding-right: 40%;
+     line-height: 50px;
+     padding-top: 5%;
+}
+
+a {
+    color: white;
+    transition: all 0.3s;
+}
+
+.example-button-container :hover {
+    color: #6fa859;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.socials button {
+    margin: 20px;
+}
+
+.e-gantt-tooltip.e-tooltip-wrap, 
+.e-tooltip-wrap .e-tip-content {
+    background: black;
+}
+
+@media screen and (max-width:500px){
+    .socials button{
+        margin: 15px;
+        margin-top: 40%;
+    }    
+
+    p {
+        font-size: 30px;
+        padding-right: 10%;
+        line-height: 30px;
+        padding-top: 20%;
+    }
+
+    h1 {
+        padding-top: 30%;
+    }
+}
