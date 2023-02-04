@@ -15,8 +15,8 @@
 
 a {
     text-decoration: none;
-    color: white;
     transition: all 0.3s;
+    color: black;
 }
 
 .mat-mdc-card-header {
@@ -24,10 +24,15 @@ a {
 }
 
 a:hover {
-    .example-card {
-        color: #6fa859;
+    .card {
+        background-color: #6fa859;
+        color: white;
         transition: all 0.3s;
     }
+}
+
+.card {
+    margin: 10px;
 }
 
 @media (min-width: 600px) {

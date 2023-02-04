@@ -30,12 +30,16 @@ p {
 }
 
 .container {
-   
+
     margin: auto;
 }
 
-@media screen and (max-width:500px){
-    .skills{
+.mat-mdc-progress-spinner {   
+    stroke: #bada55 ;
+}
+
+@media screen and (max-width:500px) {
+    .skills {
         padding: 0;
-    }    
+    }
 }

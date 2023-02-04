@@ -35,9 +35,9 @@ export class ProjectsComponent {
       image:"https://raw.githubusercontent.com/gabilucuta/Article-preview-component/main/design/desktop-preview.jpg"
     },
     {
-      name:"Intro component with sign up form",
-      url:"https://gabilucuta.github.io/Intro-component-with-sign-up-form/",
-      image:"https://raw.githubusercontent.com/gabilucuta/Intro-component-with-sign-up-form/main/design/desktop-preview.jpg"
+      name:"Notifications page",
+      url:"https://gabilucuta.github.io/Notifications-page/",
+      image:"https://raw.githubusercontent.com/gabilucuta/Notifications-page/main/design/desktop-preview.jpg"
     },
     {
       name:"Ping coming soon page",
@@ -55,7 +55,12 @@ export class ProjectsComponent {
       image:"https://raw.githubusercontent.com/gabilucuta/Tip-calculator-app-/main/design/desktop-preview.jpg"
     },
     {
-      name:"Sunnyside agency landing page",
+      name:"Calculator app",
+      url:"https://gabilucuta.github.io/Calculator-app/",
+      image:"https://raw.githubusercontent.com/gabilucuta/Calculator-app/main/design/desktop-preview.jpg"
+    },
+    {
+      name:"Sunnyside agency landing page preview",
       url:"https://gabilucuta.github.io/Sunnyside-agency-landing-page/",
       image:"https://raw.githubusercontent.com/gabilucuta/Sunnyside-agency-landing-page/main/design/desktop-preview.jpg"
     },
@@ -65,19 +70,14 @@ export class ProjectsComponent {
       image:"https://raw.githubusercontent.com/gabilucuta/Intro-section-with-dropdown-navigation/main/design/desktop-preview.jpg"
     },
     {
+      name:"Intro component with sign up form",
+      url:"https://gabilucuta.github.io/Intro-component-with-sign-up-form/",
+      image:"https://raw.githubusercontent.com/gabilucuta/Intro-component-with-sign-up-form/main/design/desktop-preview.jpg"
+    },
+    {
       name:"Base Apparel coming soon page",
       url:"https://gabilucuta.github.io/Base-Apparel-coming-soon-page/",
       image:"https://raw.githubusercontent.com/gabilucuta/Base-Apparel-coming-soon-page/main/design/desktop-preview.jpg"
-    },
-    {
-      name:"Calculator app",
-      url:"https://gabilucuta.github.io/Calculator-app/",
-      image:"https://raw.githubusercontent.com/gabilucuta/Calculator-app/main/design/desktop-preview.jpg"
-    },
-    {
-      name:"Notifications page",
-      url:"https://gabilucuta.github.io/Notifications-page/",
-      image:"https://raw.githubusercontent.com/gabilucuta/Notifications-page/main/design/desktop-preview.jpg"
     },
     {
       name:"Graphic Design Projects",

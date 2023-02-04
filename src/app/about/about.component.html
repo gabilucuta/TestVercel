@@ -13,7 +13,7 @@
     <div class="skills">
         <div *ngFor="let skill of skills">
             <h2 class="example-h2">{{skill.name}}</h2>
-            <mat-progress-spinner class="example-margin" color="accent" [value]="skill.value">
+            <mat-progress-spinner class="example-margin" [value]="skill.value">
             </mat-progress-spinner>
         </div>
     </div>
