@@ -14,7 +14,7 @@ h1 {
 
 p {
      font-size: 40px;
-     padding-right: 40%;
+     padding-right: 10%;
      line-height: 50px;
      padding-top: 5%;
 }
@@ -32,7 +32,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
 }
 
 .socials button {
@@ -45,10 +44,22 @@ a {
     background: black;
 }
 
+.content {
+    display: flex;
+}
+
+.me {
+    background-image: url("me.png");
+    background-size: cover;
+    width: 60%;
+    height: 600px;
+}
+
 @media screen and (max-width:500px){
     .socials button{
         margin: 15px;
         margin-top: 40%;
+        margin-bottom: 0px;
     }    
 
     p {
@@ -59,6 +70,19 @@ a {
     }
 
     h1 {
-        padding-top: 30%;
+        padding-top: 10%;
+        font-size: 120px;
+    }
+
+    .me {
+        height:300px;
+    }
+
+    .content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
     }
 }

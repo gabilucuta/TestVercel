@@ -23,6 +23,10 @@ a {
     padding: 0;
 }
 
+h1 {
+    display: none;
+}
+
 a:hover {
     .card {
         background-color: #6fa859;
@@ -32,7 +36,9 @@ a:hover {
 }
 
 .card {
-    margin: 10px;
+    width: 240px;
+    height: 235px;
+    margin: 8px;
 }
 
 @media (min-width: 600px) {
@@ -51,6 +57,9 @@ a:hover {
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
+        overflow: scroll;
+        height: 100%;
+        margin-top: 15%;
     }
 
     .mat-mdc-card-header{
@@ -63,8 +72,16 @@ a:hover {
         padding: 0;
     }
 
-    .cards :nth-last-child(4) {
-        display: none;
+    .card {
+        width: 150px;
+        height: 190px;
+        margin: 8px;
+    }
+    
+    h1 {
+        display: block;
+        color: white;
+        margin-top: 10%;
     }
 
 }

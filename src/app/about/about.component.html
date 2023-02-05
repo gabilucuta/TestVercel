@@ -11,9 +11,17 @@
         development.
     </p>
     <div class="skills">
-        <div *ngFor="let skill of skills">
+        <div class="card1" *ngFor="let skill of skills">
             <h2 class="example-h2">{{skill.name}}</h2>
-            <mat-progress-spinner class="example-margin" [value]="skill.value">
+            <mat-progress-spinner  color="warn" class="example-margin" [value]="skill.value">
+            </mat-progress-spinner>
+        </div>
+    </div>
+
+    <div class="skills-mobile">
+        <div class="card1" *ngFor="let skill of skills">
+            <h2 class="example-h2">{{skill.name}}</h2>
+            <mat-progress-spinner diameter="50" color="warn" class="example-margin" [value]="skill.value">
             </mat-progress-spinner>
         </div>
     </div>

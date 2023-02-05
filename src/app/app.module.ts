@@ -16,7 +16,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSidenavModule } from '@angular/material/sidenav';
-
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +36,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatCardModule,
     MatTooltipModule,
     MatProgressSpinnerModule,
-    MatSidenavModule
-  ],
+    MatSidenavModule,
+    MdbCarouselModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

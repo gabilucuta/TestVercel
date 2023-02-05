@@ -29,17 +29,35 @@ p {
     border-radius: 10px;
 }
 
-.container {
-
-    margin: auto;
+.skills-mobile {
+    display: none;
 }
 
-.mat-mdc-progress-spinner {   
-    stroke: #bada55 ;
-}
 
 @media screen and (max-width:500px) {
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .skills-mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        justify-content: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.308);
+        margin-top: 5%;
+    }
+
     .skills {
-        padding: 0;
+        display: none;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
     }
 }

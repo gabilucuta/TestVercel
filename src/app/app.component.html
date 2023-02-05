@@ -5,20 +5,20 @@
               <a ngbNavLink>HOME</a>
               <ng-template ngbNavContent>
                   <app-home></app-home>
-              </ng-template>
-          </li>
-          <li ngbNavItem (click)="setBackground(projects)">
-              <a ngbNavLink>PROJECTS</a>
-              <ng-template ngbNavContent>
-                  <app-projects></app-projects>
-              </ng-template>
-          </li>
-          <li ngbNavItem>
-              <a ngbNavLink>ABOUT</a>
-              <ng-template ngbNavContent>
-                  <app-about></app-about>
-              </ng-template>
-          </li>
+                </ng-template>
+            </li>
+            <li ngbNavItem (click)="setBackground(projects)">
+                <a ngbNavLink>PROJECTS</a>
+                <ng-template ngbNavContent>
+                    <app-projects></app-projects>
+                </ng-template>
+            </li>
+            <li ngbNavItem>
+                <a ngbNavLink>ABOUT</a>
+                <ng-template ngbNavContent>
+                    <app-about></app-about>
+                </ng-template>
+            </li>
       </ul>
       <div [ngbNavOutlet]="nav"></div>
       <router-outlet></router-outlet>
