@@ -14,7 +14,7 @@ h1 {
 
 p {
      font-size: 40px;
-     padding-right: 10%;
+     padding-right: 30%;
      line-height: 50px;
      padding-top: 5%;
 }
@@ -49,9 +49,10 @@ a {
 }
 
 .me {
-    background-image: url("me.png");
-    background-size: cover;
-    width: 60%;
+    background-image: url("me2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
     height: 600px;
 }
 
